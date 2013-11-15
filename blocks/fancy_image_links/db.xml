@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btFancyImageLinks">
+		<field name="bID" type="I"><key /><unsigned /></field>
+		<field name="fID" type="I"><unsigned /><default value="0" /></field>
+		<field name="fOnstateID" type="I"><unsigned /><default value="0" /></field>
+		<field name="max_width" type="I"><unsigned /><default value="0" /></field>
+		<field name="max_height" type="I"><unsigned /><default value="0" /></field>
+		
+		<field name="link_method"  type="C" size="25"><DEFAULT value="url_link" /></field>
+		
+		<field name="external_link"  type="C" size="255"></field>
+		<field name="external_link_target" type="L"><DEFAULT value="0" /></field>
+		<field name="alt_text" type="C" size="255"></field>
+		<field name="img_class" type="C" size="255"></field>
+		
+		<field name="enable_lightbox" type="L"><DEFAULT value="1" /></field>
+		<field name="lightbox_effect" type="C" size="10"><DEFAULT value="fade" /></field>
+		<field name="lightbox_title_position" type="C" size="10"><DEFAULT value="inside" /></field>
+		<field name="lightbox_height" type="I"></field>
+		<field name="lightbox_height_type"  type="C" size="5"></field>
+		<field name="lightbox_width" type="I"></field>
+		<field name="lightbox_width_type"  type="C" size="5"></field>
+		<field name="lightbox_description" type="C" size="255"></field>
+		<field name="lightbox_overlay_color"  type="C" size="10"><DEFAULT value="#333333" /></field>
+		
+		<field name="fileLinkID" type="I"><unsigned /><default value="0" /></field>
+		<field name="pageLinkID" type="I"><unsigned /><notnull /><default value="1" /></field>
+		<field name="filesetLinkID" type="I"><unsigned /><default value="0" /></field>
+		<field name="imageLinkID" type="I"><unsigned /><default value="0" /></field>
+	</table>
+</schema>

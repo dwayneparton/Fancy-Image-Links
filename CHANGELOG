@@ -1,0 +1,26 @@
+1.0.0 - Initial release.
+1.2.0 - Fancy Image Links has just turned into more than anticipated!!!
+	UI updated to allow for changes
+	Added no link option
+	Added ability to link to file
+	Added ability to link to page
+	Added Lightbox size % or px
+	Added Lightbox Overlay Color
+1.2.1 - Changed default value of link_method to url_link to preserve previous blocks
+1.2.2 - Added ability to open external link in new window
+	Does not show lightbox setting unless enable lightbox is checked
+1.2.8 - Fixed Page Link bug which prevented links from working for 
+pretty urls were not enabled
+	Changed File Like to get download url instead of relative url
+	Added ability to add title to external link where lightbox was 
+not enabled
+1.3.1 - Cleaned up the controller and edit form
+	Added ability to link to fileset
+	Added ability to link to image 
+1.3.2 - Bug in saving fileset resolved
+1.3.5 - Changed how fancybox was called
+	Added ability to size with auto
+	Fixed how captions were added to images and filesets
+1.3.6 - Fixed No Link Bug
+	Add CSS Class Option
+1.3.7 - Fixed ie7 bug causing iframe to work incorrectly
